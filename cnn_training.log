@@ -1,0 +1,99 @@
+Train on 8000 samples, validate on 2000 samples
+Epoch 1/100
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:885] Found device 0 with properties:
+name: GeForce GTX 960M
+major: 5 minor: 0 memoryClockRate (GHz) 1.176
+pciBusID 0000:01:00.0
+Total memory: 4.00GiB
+Free memory: 3.35GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:906] DMA: 0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:916] 0:   Y
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0)
+8000/8000 [==============================] - 5s - loss: 1.0979 - acc: 0.3455 - val_loss: 1.0982 - val_acc: 0.3380
+Epoch 2/100
+8000/8000 [==============================] - 3s - loss: 1.0932 - acc: 0.3769 - val_loss: 1.0846 - val_acc: 0.4180
+Epoch 3/100
+8000/8000 [==============================] - 3s - loss: 1.0639 - acc: 0.4369 - val_loss: 1.0312 - val_acc: 0.4765
+Epoch 4/100
+8000/8000 [==============================] - 3s - loss: 1.0189 - acc: 0.4754 - val_loss: 0.9704 - val_acc: 0.5185
+Epoch 5/100
+8000/8000 [==============================] - 3s - loss: 0.9493 - acc: 0.5385 - val_loss: 0.8640 - val_acc: 0.5965
+Epoch 6/100
+8000/8000 [==============================] - 3s - loss: 0.8816 - acc: 0.5810 - val_loss: 0.8090 - val_acc: 0.6185
+Epoch 7/100
+8000/8000 [==============================] - 3s - loss: 0.8026 - acc: 0.6261 - val_loss: 0.7554 - val_acc: 0.6445
+Epoch 8/100
+8000/8000 [==============================] - 3s - loss: 0.7232 - acc: 0.6725 - val_loss: 0.6776 - val_acc: 0.6805
+Epoch 9/100
+8000/8000 [==============================] - 3s - loss: 0.7122 - acc: 0.6751 - val_loss: 0.7184 - val_acc: 0.6740
+Epoch 10/100
+8000/8000 [==============================] - 3s - loss: 0.6785 - acc: 0.6981 - val_loss: 0.6307 - val_acc: 0.7185
+Epoch 11/100
+8000/8000 [==============================] - 3s - loss: 0.6239 - acc: 0.7246 - val_loss: 0.6114 - val_acc: 0.7355
+Epoch 12/100
+8000/8000 [==============================] - 3s - loss: 0.5721 - acc: 0.7515 - val_loss: 0.5642 - val_acc: 0.7670
+Epoch 13/100
+8000/8000 [==============================] - 3s - loss: 0.5596 - acc: 0.7614 - val_loss: 0.5408 - val_acc: 0.7725
+Epoch 14/100
+8000/8000 [==============================] - 3s - loss: 0.5476 - acc: 0.7695 - val_loss: 0.5212 - val_acc: 0.7840
+Epoch 15/100
+8000/8000 [==============================] - 3s - loss: 0.5037 - acc: 0.7931 - val_loss: 0.4870 - val_acc: 0.7975
+Epoch 16/100
+8000/8000 [==============================] - 3s - loss: 0.4969 - acc: 0.7949 - val_loss: 0.4924 - val_acc: 0.7985
+Epoch 17/100
+8000/8000 [==============================] - 3s - loss: 0.4699 - acc: 0.8058 - val_loss: 0.4891 - val_acc: 0.8030
+Epoch 18/100
+8000/8000 [==============================] - 3s - loss: 0.4592 - acc: 0.8137 - val_loss: 0.5067 - val_acc: 0.7945
+Epoch 19/100
+8000/8000 [==============================] - 3s - loss: 0.4513 - acc: 0.8139 - val_loss: 0.4607 - val_acc: 0.8140
+Epoch 20/100
+8000/8000 [==============================] - 3s - loss: 0.4332 - acc: 0.8233 - val_loss: 0.4547 - val_acc: 0.8155
+Epoch 21/100
+8000/8000 [==============================] - 3s - loss: 0.4169 - acc: 0.8337 - val_loss: 0.4273 - val_acc: 0.8230
+Epoch 22/100
+8000/8000 [==============================] - 3s - loss: 0.4279 - acc: 0.8260 - val_loss: 0.4283 - val_acc: 0.8305
+Epoch 23/100
+8000/8000 [==============================] - 3s - loss: 0.3829 - acc: 0.8464 - val_loss: 0.4378 - val_acc: 0.8160
+Epoch 24/100
+8000/8000 [==============================] - 3s - loss: 0.3778 - acc: 0.8503 - val_loss: 0.4150 - val_acc: 0.8210
+Epoch 25/100
+8000/8000 [==============================] - 3s - loss: 0.3963 - acc: 0.8438 - val_loss: 0.4267 - val_acc: 0.8300
+Epoch 26/100
+8000/8000 [==============================] - 3s - loss: 0.3606 - acc: 0.8554 - val_loss: 0.4094 - val_acc: 0.8270
+Epoch 27/100
+8000/8000 [==============================] - 3s - loss: 0.3552 - acc: 0.8595 - val_loss: 0.4218 - val_acc: 0.8295
+Epoch 28/100
+8000/8000 [==============================] - 3s - loss: 0.3407 - acc: 0.8656 - val_loss: 0.4687 - val_acc: 0.8105
+Epoch 29/100
+8000/8000 [==============================] - 3s - loss: 0.3301 - acc: 0.8706 - val_loss: 0.3740 - val_acc: 0.8510
+Epoch 30/100
+8000/8000 [==============================] - 3s - loss: 0.3161 - acc: 0.8748 - val_loss: 0.3783 - val_acc: 0.8510
+Epoch 31/100
+8000/8000 [==============================] - 3s - loss: 0.3099 - acc: 0.8789 - val_loss: 0.3644 - val_acc: 0.8535
+Epoch 32/100
+8000/8000 [==============================] - 3s - loss: 0.3061 - acc: 0.8755 - val_loss: 0.3737 - val_acc: 0.8540
+Epoch 33/100
+8000/8000 [==============================] - 3s - loss: 0.3110 - acc: 0.8772 - val_loss: 0.3913 - val_acc: 0.8505
+Epoch 34/100
+8000/8000 [==============================] - 3s - loss: 0.2902 - acc: 0.8885 - val_loss: 0.4000 - val_acc: 0.8395
+Epoch 35/100
+8000/8000 [==============================] - 3s - loss: 0.2942 - acc: 0.8825 - val_loss: 0.3632 - val_acc: 0.8590
+Epoch 36/100
+8000/8000 [==============================] - 3s - loss: 0.2779 - acc: 0.8919 - val_loss: 0.3591 - val_acc: 0.8550
+Epoch 37/100
+8000/8000 [==============================] - 3s - loss: 0.2558 - acc: 0.9038 - val_loss: 0.3441 - val_acc: 0.8620
+Epoch 38/100
+8000/8000 [==============================] - 3s - loss: 0.2595 - acc: 0.8979 - val_loss: 0.3568 - val_acc: 0.8625
+Epoch 39/100
+8000/8000 [==============================] - 3s - loss: 0.2571 - acc: 0.8991 - val_loss: 0.3833 - val_acc: 0.8520
+Epoch 40/100
+8000/8000 [==============================] - 3s - loss: 0.2506 - acc: 0.8992 - val_loss: 0.3732 - val_acc: 0.8610
+Epoch 41/100
+8000/8000 [==============================] - 3s - loss: 0.2329 - acc: 0.9116 - val_loss: 0.3838 - val_acc: 0.8535
+Epoch 42/100
+8000/8000 [==============================] - 3s - loss: 0.2257 - acc: 0.9117 - val_loss: 0.4035 - val_acc: 0.8550
+Epoch 43/100
+8000/8000 [==============================] - 3s - loss: 0.2205 - acc: 0.9151 - val_loss: 0.3559 - val_acc: 0.8710
+2000/2000 [==============================] - 0s
+Test loss: 0.35592719316482546
+Test accuracy: 0.871
